@@ -1,0 +1,21 @@
+@media (max-width: 767px){
+    .Skills{
+        min-height: 75vh;
+        padding: 18px;
+    }
+    .SkillsTitle p{
+        letter-spacing: 1px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .SkillsTitle h1{
+        font-size: 44px;
+        font-weight: bolder;
+    }
+    .SkillsContainer{
+        margin-left: 12px;
+    }
+    .page_number5{
+        right: 10;
+    }
+}
