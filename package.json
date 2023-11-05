@@ -1,6 +1,6 @@
 {
-  "name": "react-blog",
-  "version": "2.0.0",
+  "name": "nishant-chhillar-blog",
+  "version": "3.0.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
