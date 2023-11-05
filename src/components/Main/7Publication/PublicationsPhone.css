@@ -1,6 +1,5 @@
 @media (max-width: 767px){
-    .Posts{
-        min-height: 75vh;
+    .Publications{
         padding: 18px;
     }
     .PostsTitle p{
@@ -12,7 +11,10 @@
         font-size: 44px;
         font-weight: bolder;
     }
-    .page_number6{
+    .page_number7{
         right: 9;
+    }
+    .PublicationsContainer{
+        flex-direction: column;
     }
 }

@@ -14,7 +14,7 @@ function Footer() {
         <FooterOptionsView name='Linkedin' link='https://in.linkedin.com/in/nishant-chhillar-177b7b278'/>
         <FooterOptionsView name='Github' link='https://github.com/nchhillar2004'/>
         <FooterOptionsView name='Mail' link='https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRpddJdTFcvNHgkjwRJFrDZVWWNTrRgDVwPZWGWjxMzKHMtfwKfWNpFPpktPbLWNbJBsfqB'/>
-        <FooterOptionsView name='Subscribe' link='#'/>
+        <FooterOptionsView name='Subscribe' link='https://discord.gg/7n5aKX3z8s'/>
         <FooterOptionsView name='Back to top' link='#'/>
         <hr></hr>
         <FooterTextView text='Copyright @2024, All rights reserved.'/>

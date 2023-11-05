@@ -18,13 +18,13 @@ function Header() {
                 </div>
                 <br></br>
                 
-                <div className="logo  animate__animated animate__fadeInUp" target="_blank">
+                <div className="logo animate__animated animate__fadeInUp" target="_blank">
                     <a href="https://nishantchhillar.tech">
                         <img src={`${logo}`} alt="logo"></img>
                     </a>
                 </div>
                 <br></br>
-                  <h1>Nishant <br></br> Chhillar</h1>
+                  <h1 className="animate__animated animate__fadeInUp">Nishant <br></br> Chhillar</h1>
             </div>
         </div>
     );

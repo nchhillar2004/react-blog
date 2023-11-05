@@ -6,8 +6,8 @@ import SouthRoundedIcon from '@mui/icons-material/SouthRounded';
 function Resume() {
   return (
     <div className="cvComponent">
-      <div className="page_number7">
-                    <p id="page_7">00007</p>
+      <div className="page_number8">
+                    <p id="page_8">00008</p>
               </div>
       <div className="cv_container">
         <a href="./Resume.pdf" download = "Nishant_Chhillar_Resume.pdf">Download CV</a><br></br>

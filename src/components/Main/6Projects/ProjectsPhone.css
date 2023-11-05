@@ -1,20 +1,17 @@
 @media (max-width: 767px){
-    .Skills{
+    .Projects{
         padding: 18px;
     }
-    .SkillsTitle p{
+    .PostsTitle p{
         letter-spacing: 1px;
         margin-left: 10px;
         font-size: 15px;
     }
-    .SkillsTitle h1{
+    .PostsTitle h1{
         font-size: 44px;
         font-weight: bolder;
     }
-    .SkillsContainer{
-        margin-left: 12px;
-    }
-    .page_number5{
-        right: 10;
+    .page_number6{
+        right: 9;
     }
 }

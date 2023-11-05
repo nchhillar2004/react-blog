@@ -1,8 +1,8 @@
-.Posts{
+.Publications{
     padding: 32px;
 }
 
-.page_number6{
+.page_number7{
     transform: rotate(90deg);
     font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
     position: absolute;
@@ -29,31 +29,41 @@
     font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
 }
 
-.PostsContainer{
+.PublicationsContainer{
     display: flex;
     max-width: 90%;
-    overflow-x: scroll;
     margin: auto;
-    border-radius: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-/* Target the scrollbar */
-::-webkit-scrollbar {
-    width: 8px;
-    height: 10px; /* Width of the scrollbar */
-  }
-  
-  /* Track (the background of the scrollbar) */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Color of the track */
-  }
-  
-  /* Handle (the draggable part of the scrollbar) */
-  ::-webkit-scrollbar-thumb {
-    background: #888; /* Color of the handle */
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Color of the handle on hover */
-  }
+.ContactContainer{
+    padding: 12px 18px;
+    border: 7px solid black;
+    opacity: 0.6;
+    width: fit-content;
+    height: fit-content;
+    min-height: 100px;
+    line-height: 2.4;
+    margin: 20px auto;
+    user-select: none;
+}
+
+.ContactContainer:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.ContactContainer h2{
+    margin: 2px 0px;
+}
+
+.ContactContainer nav>ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul>li>a{
+    text-decoration: none;
+}

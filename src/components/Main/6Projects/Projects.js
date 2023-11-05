@@ -6,20 +6,20 @@ import blog from '../../../assets/blog.png';
 import android from '../../../assets/android.png';
 import pacman from '../../../assets/pacman.jfif';
 import phpadmin from '../../../assets/phpmyadmin.png';
-import './Publications.css';
-import './PublicationsPhone.css';
+import './Projects.css';
+import './ProjectsPhone.css';
 
 function Publications() {
     const Source = 'Source Code';
     const Visit = 'Live Preview';
   return (
-    <div className='Posts'>
+    <div className='Projects'>
         <div className="page_number6">
                     <p id="page_6">00006</p>
               </div>
         <div className="PostsTitle">
-          <p>Publications by Nishant Chhillar</p>
-          <h1>Publicati-<br></br>on</h1>
+          <p>Projects by Nishant Chhillar</p>
+          <h1>Projects</h1>
         </div>
         <div className="PostsContainer">
             <PostView image={`${phpadmin}`} title='PHP Servers' content="Developed a php website using realtime database (mysql) with a responsive design enabling users to register login and create or join a server listed in the database." time='10:36' date='04/11/2023' button={Visit} read='https://amassable-lump.000webhostapp.com/'/>
