@@ -4,7 +4,7 @@ import "./HeaderPhone.css";
 import logo from "../../assets/logo.png";
 import 'animate.css';
 
-function Header() {
+function Header(props) {
     return (
         <div className="header">
           <div className="steez_line animate__animated animate__fadeInRight"></div>

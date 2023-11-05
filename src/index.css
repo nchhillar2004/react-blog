@@ -6,6 +6,7 @@ html, body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
@@ -15,5 +16,5 @@ code {
 
 #root{
   width: 100%;
-  height: fit-content;
+  height: 100%;
 }

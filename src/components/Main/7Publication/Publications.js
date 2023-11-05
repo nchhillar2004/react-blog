@@ -25,8 +25,8 @@ function Publications() {
           <h2>Contact-<br></br>links</h2>
           <nav>
             <ul>
-              <li><a href='https://discord.gg/7n5aKX3z8s' target='_blank'>Discord</a></li>
-              <li><a href='https://github.com/nchhillar2004' target='_blank'>GitHub</a></li>
+              <li><a href='https://discord.gg/7n5aKX3z8s' target='_blank' rel='noreferrer'>Discord</a></li>
+              <li><a href='https://github.com/nchhillar2004' target='_blank' rel='noreferrer'>GitHub</a></li>
             </ul>
           </nav>
         </div>

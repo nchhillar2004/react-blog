@@ -56,6 +56,7 @@
 
 .ContactContainer h2{
     margin: 2px 0px;
+    letter-spacing: 4px;
 }
 
 .ContactContainer nav>ul{
@@ -66,4 +67,10 @@
 
 ul>li>a{
     text-decoration: none;
+    letter-spacing: 2px;
+    color: #303030;
+}
+
+ul>li>a:hover{
+    text-decoration: underline;
 }
