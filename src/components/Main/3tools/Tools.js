@@ -2,7 +2,6 @@ import React from 'react'
 import './Tools.css';
 import './ToolsPhone.css';
 import ArrowOutwardRoundedIcon from '@mui/icons-material/ArrowOutwardRounded';
-import react from '../../../assets/react.png';
 
 function Tools() {
   return (
@@ -17,7 +16,7 @@ function Tools() {
             <a href='https://react.dev'>Learn React <ArrowOutwardRoundedIcon fontSize='small'/></a>
         </div>
         <div className="ToolsContainer"> 
-            <img src={`${react}`} alt="Your GIF" loop/>
+            <img src='https://cloud.appwrite.io/v1/storage/buckets/654e20b545bf9be170de/files/654e2251d7a86763a583/view?project=654e1e78768f34eac437&mode=admin' alt="Your GIF" loop/>
         </div>
     </div>
   )

@@ -13,7 +13,7 @@
     <div class="video-container">
         <a href="video-player.html?video=video1.mp4" class="video-item">
             <video>
-                <source src="video1.mp4" type="video/mp4">
+                <source src="https://cloud.appwrite.io/v1/storage/buckets/654e20b545bf9be170de/files/654e233ea7a39e14829e" type="video/mp4">
             </video>
         </a>
         <a href="video-player.html?video=video2.mp4" class="video-item">
@@ -50,5 +50,14 @@
     <footer>
         <p>&copy; 2023</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/appwrite@13.0.0"></script>
+<script>
+    const { Client } = Appwrite;
+    const client = new Client();
+
+client
+    .setEndpoint('https://cloud.appwrite.io/v1')
+    .setProject('654e1e78768f34eac437');
+</script>
 </body>
 </html>
