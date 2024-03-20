@@ -1,0 +1,13 @@
+.FooterHeadingView{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 1.5s all cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.FooterHeadingView p{
+    margin: 5px;
+    padding: 2px;
+}

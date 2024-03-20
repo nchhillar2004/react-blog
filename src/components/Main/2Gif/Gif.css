@@ -1,0 +1,71 @@
+.gif{
+    background: black;
+    padding: 50px;
+    text-align: center;
+}
+
+.page_number2{
+    transform: rotate(90deg);
+    font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
+    position: absolute;
+    right: 30px;
+    top: 1080px;
+    letter-spacing: 4px;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    color: white;
+    line-height: 20px;
+}
+
+.alwayson{
+    text-align: center;
+}
+
+.alwayson h1{
+    font-size: 26px;
+    color: #484644;
+    margin-bottom: 2px;
+    letter-spacing: 1px;
+}
+
+.alwayson h2{
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-top: 2px;
+    color: whitesmoke;
+    margin-bottom: 40px;
+}
+
+.GifContainer{
+    margin: auto;
+    width: fit-content;
+    border: 7px solid whitesmoke;
+    width: 224px;
+    color: white;
+    height: 224px;
+}
+
+.GifContainer img{
+    width: fit-content;
+    margin-bottom: 25px;
+}
+
+.GifContentContainer{
+    text-align: center;
+    color: white;
+    margin: 40px auto;
+    width: 320px;   
+}
+
+.GifContentContainer p{
+    margin-bottom: 60px;
+    text-align: center;
+    word-spacing: 2px;
+    font-size: 14px;
+}
+
+.GifContentContainer a{
+    color: #484644;
+}
+

@@ -1,0 +1,15 @@
+@media (max-width: 767px){
+    .GifContentContainer{
+        text-align: center;
+        color: white;
+        margin: 30px auto;
+        width: 250px;   
+    }
+
+    .GifContentContainer p{
+        margin-bottom: 40px;
+        text-align: center;
+        word-spacing: 2px;
+        font-size: 13px;
+    }
+}

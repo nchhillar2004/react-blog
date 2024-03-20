@@ -1,0 +1,28 @@
+@media (max-width: 767px){
+    .header {
+        height: 800px;
+    }
+    .container {
+      width: auto;
+      margin: 0px 30px;
+    }
+    .page_number {
+        top: 40px;
+        right: 15px;
+    }
+    .steez_line {
+        display: none;
+    }
+    .profession {
+        top: 40px;
+    }
+
+    .logo{
+        top: 120px;
+    }
+
+    .container h1{
+        font-size: 60px;
+        top: 430px;
+    }
+}

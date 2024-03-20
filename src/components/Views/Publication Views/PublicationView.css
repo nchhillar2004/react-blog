@@ -1,0 +1,26 @@
+.PublicationView{
+    width: 25%;
+    height: fit-content;
+    font-weight: 300;
+    font-size: 13px;
+    color: #303030;
+    line-height: 26px;
+    font-family: "Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
+    margin: 10px;
+}
+
+.PublicationView p{
+    margin: 4px 0px;
+}
+
+.PublicationView p>span{
+    background-color: #fff899;
+    padding: 5px 8px;
+    margin: 0px 3px;
+}
+
+@media (max-width: 767px){
+    .PublicationView{
+        width: 100%;
+    }
+}

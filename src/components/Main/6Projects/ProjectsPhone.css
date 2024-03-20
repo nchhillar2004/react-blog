@@ -1,0 +1,17 @@
+@media (max-width: 767px){
+    .Projects{
+        padding: 18px;
+    }
+    .PostsTitle p{
+        letter-spacing: 1px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .PostsTitle h1{
+        font-size: 44px;
+        font-weight: bolder;
+    }
+    .page_number6{
+        right: 20px;
+    }
+}

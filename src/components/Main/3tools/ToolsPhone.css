@@ -1,0 +1,30 @@
+@media (max-width: 767px){
+    .tools{
+        display: block;
+        height: fit-content;
+        padding: 120px 0px 180px 0px;
+        text-align: center;
+        background: linear-gradient(to bottom, #212121 84%, #000000);
+    }
+
+    .ToolsContentContainer{
+        text-align: center;
+    }
+    .ToolsContentContainer h2{
+        width: 220px;
+        margin: auto;
+        font-size: 45px;
+    }
+
+    .ToolsContentContainer p{
+        width: 220px;
+        margin: auto;
+        font-size: 13px;
+    }
+
+
+    .ToolsContainer img{
+        width: 180px;
+        margin: 12px 0px;
+    }
+}

@@ -1,0 +1,20 @@
+@media (max-width: 767px){
+    .Publications{
+        padding: 18px;
+    }
+    .PostsTitle p{
+        letter-spacing: 1px;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .PostsTitle h1{
+        font-size: 44px;
+        font-weight: bolder;
+    }
+    .page_number7{
+        right: 20px;
+    }
+    .PublicationsContainer{
+        flex-direction: column;
+    }
+}

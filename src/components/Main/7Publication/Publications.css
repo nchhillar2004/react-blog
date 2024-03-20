@@ -1,0 +1,76 @@
+.Publications{
+    padding: 32px;
+}
+
+.page_number7{
+    transform: rotate(90deg);
+    font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
+    position: absolute;
+    right: 30px;
+    letter-spacing: 4px;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+}
+
+.PostsTitle p{
+    letter-spacing: 1px;
+    margin-left: 24px;
+}
+
+.PostsTitle h1{
+    font-size: 100px;
+    color: #303030;
+    margin-top: 2px;
+    font-weight: bold;
+    margin-left: 24px;
+    text-transform: uppercase;
+    font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
+}
+
+.PublicationsContainer{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ContactContainer{
+    padding: 12px 18px;
+    border: 7px solid black;
+    opacity: 0.6;
+    width: fit-content;
+    height: fit-content;
+    min-height: 100px;
+    line-height: 2.4;
+    margin: 20px auto;
+    user-select: none;
+}
+
+.ContactContainer:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.ContactContainer h2{
+    margin: 2px 0px;
+    letter-spacing: 4px;
+}
+
+.ContactContainer nav>ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul>li>a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #303030;
+}
+
+ul>li>a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,9 @@
+@media (max-width: 767px){
+    .AboutContainer p{
+        width: 280px;
+    }
+    .page_number4{
+        right: 20px;
+
+    }
+}
