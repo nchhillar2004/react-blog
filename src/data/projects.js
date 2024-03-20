@@ -2,7 +2,7 @@ export const projects = [
     {
         title: "Amazon Clone (MERN Stack)",
         content: "Developed an Amazon clone using MERN stack with user authentication, product listing, and checkout process.",
-        image: "",
+        image: "https://github.com/nchhillar2004/react-blog/blob/main/src/assets/amazon.png?raw=true",
         read: "",
         time: "9:00",
         date: "20/03/2024",
@@ -34,7 +34,7 @@ export const projects = [
     {
         title: "Personal Blog (React.js)",
         content: "Developed a Personal Blog Website using React.js with post creation and commenting capabilities.",
-        image: "",
+        image: "https://github.com/nchhillar2004/react-blog/blob/main/src/assets/blog.png?raw=true",
         read: "",
         time: "10:00",
         date: "20/03/2024",
