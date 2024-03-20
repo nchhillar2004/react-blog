@@ -1,67 +1,66 @@
-.postView{
-    width: 240px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 345px;
-    border-radius: 12px;
-    border: 1px solid rgb(225, 225, 225);
-    background-color: whitesmoke;
-    text-align: -webkit-center;
-    padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-left: 8px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+.postView {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 345px;
+  border-radius: 12px;
+  border: 1px solid rgb(225, 225, 225);
+  background-color: whitesmoke;
+  text-align: -webkit-center;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: 8px;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
-.postImage{
-    width: 230px;
-    height: 120px;
-    text-align: center;
-    border-bottom: 1px solid rgb(161, 161, 161);
+.postImage {
+  width: 230px;
+  height: 120px;
+  text-align: center;
+  border-bottom: 1px solid rgb(161, 161, 161);
 }
 
-.postView img{
-    width: 200px;
-    height: 120px;
+.postView img {
+  max-width: 200px;
+  max-height: 120px;
 }
 
-
-.postContent{
-    min-height: 120px;
+.postContent {
+  min-height: 120px;
 }
 
-.postContent p{
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 8;
-    -webkit-box-orient: vertical;
+.postContent p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
 }
 
-.ReadMore{
-    background-color: transparent;
-    color: rgb(173, 129, 173);
-    font-size: 15px;
-    cursor: pointer;
-    border: 0px;
-    border-width: 0px;
+.ReadMore {
+  background-color: transparent;
+  color: rgb(173, 129, 173);
+  font-size: 15px;
+  cursor: pointer;
+  border: 0px;
+  border-width: 0px;
 }
 
-.BottomContent{
-    display: flex;
-    align-items: center;
-    width: -webkit-fill-available;
-    justify-content: space-between;
-    float: inline-end;
+.BottomContent {
+  display: flex;
+  align-items: center;
+  width: -webkit-fill-available;
+  justify-content: space-between;
+  float: inline-end;
 }
 
-.postTime{
-    text-align: center;
+.postTime {
+  text-align: center;
 }
 
-.postTime p, 
-.postTime time{
-    margin: 0px;
-    padding: 0px;
+.postTime p,
+.postTime time {
+  margin: 0px;
+  padding: 0px;
 }
